@@ -1,0 +1,165 @@
+[
+  {
+    "@id": "cartrade",
+    "@type": "SoftwareApplication",
+    "name": "_Car Dealership"
+  },
+  {
+    "@id": "rota",
+    "@type": "SoftwareApplication",
+    "name": "_Duty Rota / Dienstplan",
+    "description": "Dienstzeiten, Orte und Kategorien einstellen für Mitglieder der Organisation. Damit lässt sich die Kapazität planen.",
+    "thumbnailUrl": "work_history",
+    "image": ""
+  },
+  {
+    "@id": "customers",
+    "@type": "SoftwareApplication",
+    "name": "Kunden",
+    "thumbnailUrl": "people",
+    "description": "Based on Module *Accounts*",
+    "image": ""
+  },
+  {
+    "@id": "suppliers",
+    "@type": "SoftwareApplication",
+    "name": "Lieferanten",
+    "thumbnailUrl": "people",
+    "description": "Based on Module *Accounts*",
+    "image": ""
+  },
+  {
+    "@id": "patientens",
+    "@type": "SoftwareApplication",
+    "name": "_Patients",
+    "description": "Manage Patients and set plans for them.\n\nBased on Module *Accounts*",
+    "thumbnailUrl": "people",
+    "screenshot": "",
+    "image": ""
+  },
+  {
+    "@id": "places",
+    "@type": "SoftwareApplication",
+    "name": "✅ Places",
+    "screenshot": "",
+    "thumbnailUrl": "place",
+    "description": "Öffentlicher und Interne Standorte verwalten. Zusätzlich können Öffnungszeiten hinzugefügt werden.",
+    "image": ""
+  },
+  {
+    "@id": "sub-orgas",
+    "@type": "SoftwareApplication",
+    "name": "_SubOrganizations / Projects",
+    "description": "Based on Module *Accounts*",
+    "thumbnailUrl": "corporate_fare",
+    "screenshot": "",
+    "image": ""
+  },
+  {
+    "@id": "products",
+    "@type": "SoftwareApplication",
+    "name": "✅ Products",
+    "thumbnailUrl": "category",
+    "screenshot": "",
+    "description": "Die Products App ermöglicht es dir, deine Produkte zu speichern und zu verwalten. Es ist Teil einer Vermögensverwaltung. Zusätzlich lassen sich Dinge zwischen Organisationen oder Personen transferieren.",
+    "image": ""
+  },
+  {
+    "@id": "actions",
+    "@type": "SoftwareApplication",
+    "name": "✅ Actions",
+    "thumbnailUrl": "history",
+    "screenshot": "https://plaky.com/assets/images/web-assets/plaky-screenshot.png",
+    "offers": {
+      "@type": "Offer",
+      "priceSpecification": {
+        "@type": "CompoundPriceSpecification",
+        "price": 9.9,
+        "priceCurrency": "EUR"
+      }
+    },
+    "description": "Mit diesem Modul kannst du alle vergangenen Aktionen nachsehen und damit Änderungen einfacher nachvollziehen. Damit bist du auf der sicheren Seite wenn du oder jemand anderes mal etwas aus versehen geändert hast.",
+    "image": ""
+  },
+  {
+    "@id": "chat",
+    "@type": "SoftwareApplication",
+    "name": "_Chat / Messages",
+    "description": "Interner Chat für Mitglieder zur einfachen Kommunikation",
+    "screenshot": ""
+  },
+  {
+    "@id": "invoices",
+    "@type": "SoftwareApplication",
+    "name": "✅ Invoices",
+    "description": "All Invoices in one place. Maybe good for Tax-Calculation.",
+    "screenshot": "",
+    "image": "",
+    "thumbnailUrl": "receipt_long"
+  },
+  {
+    "@id": "taxes-at",
+    "@type": "SoftwareApplication",
+    "name": "_Taxes-Austria",
+    "description": "Steuererklärung für Österreich erstellen",
+    "screenshot": ""
+  },
+  {
+    "@id": "events",
+    "@type": "SoftwareApplication",
+    "thumbnailUrl": "event",
+    "name": "✅ Events",
+    "description": "Verwalte deine Aufgaben und Termine in der Kalenderansicht oder in der normalen Liste. Du kannst Aufgaben ohne Startzeit erstellen. Dann kannst du diese einplanen (d.h. auf eine bestimmte Startzeit setzen) ebenfalls kaannst du sie sofort \"abspielen\" dann wird der Startzeitpunkt auf den aktuellen gesetzt.",
+    "screenshot": ""
+  },
+  {
+    "@id": "mediaobjects",
+    "@type": "SoftwareApplication",
+    "name": "✅ Media Content",
+    "description": "Base App for uploading/storing MediaObjects like Screenshots, Videos, Sounds and browse them. Also other kinds of work are listed here.",
+    "screenshot": "",
+    "image": "",
+    "thumbnailUrl": "perm_media"
+  },
+  {
+    "@id": "auth",
+    "@type": "SoftwareApplication",
+    "name": "✅ Authorization",
+    "description": "Handles identification. Login and Registration process for identifying Persons and Organizations. Also see who is online.\nAlso change Password is here.",
+    "thumbnailUrl": "how_to_reg"
+  },
+  {
+    "@id": "apps",
+    "@type": "SoftwareApplication",
+    "name": "✅ Apps",
+    "thumbnailUrl": "apps",
+    "description": "App Browser where you can install Apps for Organizations or Persons. You are currently inside of this App.",
+    "screenshot": "",
+    "isAccessibleForFree": true,
+    "image": ""
+  },
+  {
+    "@id": "accounts",
+    "@type": "SoftwareApplication",
+    "name": "✅ Accounts",
+    "description": "Manage Persons and Organizations on Resource Level, do not have to be identified. Concept for each individual. For example a contact is created in my System but this user has no account. But if i know the email then the system could check and link a user (verification mark maybe). Good for creating Persons and Organization as Contacts or whatever.",
+    "image": "",
+    "thumbnailUrl": "manage_accounts"
+  },
+  {
+    "@id": "cryptotracker",
+    "@type": "SoftwareApplication",
+    "name": "✅ Crypto Tracker",
+    "description": "Track the current Price of Bitcoin in a 5 minute interval. This is a Demo App for Testing. This App is also only a client-side app and has no backend.",
+    "image": "",
+    "thumbnailUrl": "query_stats"
+  },
+  {
+    "@id": "services",
+    "@type": "SoftwareApplication",
+    "name": "✅ Services",
+    "description": "Manage Services. A Service is a Product which is produced and consumed simultaneuosly.",
+    "image": "",
+    "thumbnailUrl": "miscellaneous_services"
+  }
+]
